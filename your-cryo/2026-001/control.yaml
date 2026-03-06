@@ -1,0 +1,36 @@
+modules:
+  ctrl:
+    stages:
+      50K:
+      - XMA-10dB
+      4K:
+      - XMA-20dB
+      MXC:
+      - XMA-20dB
+      - Eccosorb
+
+lines:
+- line_id: C00
+  qubit: Q00
+  module: ctrl
+- line_id: C01
+  qubit: Q01
+  module: ctrl
+- line_id: C02
+  qubit: Q02
+  module: ctrl
+- line_id: C03
+  qubit: Q03
+  module: ctrl
+- line_id: C04
+  qubit: Q04
+  module: ctrl
+- line_id: C05
+  qubit: Q05
+  module: ctrl
+- line_id: C06
+  qubit: Q06
+  module: ctrl
+- line_id: C07
+  qubit: Q07
+  module: ctrl
