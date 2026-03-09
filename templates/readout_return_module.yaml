@@ -1,9 +1,9 @@
 readout_return_standard:
   stages:
     CP:
-    - ISO-LNF
-    - ISO-LNF
+    - LNF-ISO
+    - LNF-ISO
     50K:
-    - HEMT-LNF
+    - LNF-HEMT
     RT:
-    - RT-MITEQ
+    - RT-AMP

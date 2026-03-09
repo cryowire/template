@@ -20,7 +20,7 @@ control_standard:
 #     stages:
 #       4K:
 #         add:
-#         - LPF-KL
+#         - K&L-LPF
 #       MXC:
 #         remove:
 #         - XMA-20dB
