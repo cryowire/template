@@ -1,6 +1,12 @@
-# cryowire-template
+<a href="https://github.com/cryowire">
+  <img src="https://raw.githubusercontent.com/cryowire/artwork/main/logo-type/logotype.png" alt="cryowire" width="400" />
+</a>
+
+# cryowire/template
 
 A template repository for dilution refrigerator wiring configuration data.
+
+See **[cryowire.github.io](https://cryowire.github.io/)** for the full project overview.
 
 ## Getting Started
 
@@ -107,12 +113,3 @@ cryowire validate anemone/2026/cd001/
         └── cd002/               # Second cooldown
             └── ...
 ```
-
-## Related Repositories
-
-| Repository | Description |
-|---|---|
-| [cryowire/spec](https://github.com/cryowire/spec) | YAML format specification & schemas |
-| [cryowire/core](https://github.com/cryowire/core) | Python library (models, validation, diagram, builder) |
-| [cryowire/cli](https://github.com/cryowire/cli) | CLI tool |
-| [cryowire/app](https://github.com/cryowire/app) | Web UI (FastAPI + Next.js) |
